@@ -81,4 +81,6 @@ void signout()
 ```
 
 <h2>Additional iOS Instructions</h2>
-On some older versions of Unity, the static libraries in sdkboxplay/Assets/Plugins/iOS do not get included in the XCode project. In this case they need to be moved to Assets/Plugins/iOS or added to the XCode project manually.
+1) On some older versions of Unity, the static libraries in sdkboxplay/Assets/Plugins/iOS do not get included in the XCode project. In this case they need to be moved to Assets/Plugins/iOS or added to the XCode project manually.
+
+2) When you build iOS project, in build setting, you need to set 'Enable Bitcode' to 'No' .
