@@ -157,4 +157,5 @@ static void createTracker(string trackerId);
 ```
 static void enableTracker(string trackerId);
 ```
-
+<h2> Additional iOS instruction </h2>
+When you build iOS project, in build setting, you need to set 'Enable Bitcode' to 'No' 
