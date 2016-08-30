@@ -151,3 +151,6 @@ If you have not specified your own AndroidManifest.xml then when you import the 
 If you do have your own already, then you will need to add this permission to it.
 
 The AndroidManifest.xml is merged with the main manifest that Unity creates when building the APK.
+
+<h2> Additional iOS instruction </h2>
+When you build iOS project, in build setting, you need to set 'Enable Bitcode' to 'No' 
